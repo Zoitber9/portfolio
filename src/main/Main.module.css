@@ -1,0 +1,43 @@
+.mainBlock {
+    min-height: 100vh;
+    background-color: #e5cd81;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+    width: 100%;
+}
+
+.mainText {
+    background-color: #91e78e;
+}
+
+.photo {
+    width: 280px;
+    height: 360px;
+    background-color: #5b7893;
+}
+
+
+@media (max-width: 500px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .photo {
+        width: 280px;
+        height: 360px;
+    }
+
+    .mainBlock {
+        min-height: 100vh;
+        padding: 20px 0 0 0;
+
+    }
+    .mainText {
+        background-color: inherit;
+    }
+}

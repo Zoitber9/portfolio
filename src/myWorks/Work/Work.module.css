@@ -1,0 +1,74 @@
+.MyWorksBlock{
+    min-height: 100vh;
+    background-color: #ef9eea;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+}
+
+.MyWorksContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work {
+    width: 300px;
+    height: 300px;
+    background-color: #858792;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.works{
+    width: 100%;
+    display: flex;
+    padding: 0 7%;
+   justify-content: space-between;
+}
+
+.workPicture{
+    width: 300px;
+    height: 300px;
+    background: #8f9de8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.workDescription{
+    padding: 5px 0;
+}
+.img {
+    width: 250px;
+    height: 300px;
+    background-color: #f8f9fa;
+    margin: 5px;
+}
+@media (max-width: 1020px) {
+    .works{
+        flex-direction: column;
+        padding: 0 ;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .works{
+        flex-direction: column;
+        padding: 0 ;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .MyWorksContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+}

@@ -1,0 +1,20 @@
+.jobOptions{
+    min-height: 100vh;
+    background-color: #de79b2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+}
+
+.jobOptionsBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.jobOptionText{
+    font-size: 36px;
+    text-align: center;
+}
